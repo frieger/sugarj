@@ -1,3 +1,3 @@
-module org/sugarj/fomega/initGrammar
-imports org/sugarj/languages/SugarFomega
+module org/sugarj/fomegamodulesystemtest/initGrammar
+imports org/sugarj/languages/SugarFomegaMst
         org/sugarj/stdlib/Common

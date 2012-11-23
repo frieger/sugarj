@@ -2,7 +2,7 @@ package org.sugarj.fomegamodulesystemtest;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
-import org.sugarj.FomegaLibFactory;
+import org.sugarj.FomegaMstLibFactory;
 import org.sugarj.LanguageLibRegistry;
 
 /**
@@ -20,7 +20,7 @@ public class Activator extends AbstractUIPlugin {
 	 * The constructor
 	 */
 	public Activator() {
-	  LanguageLibRegistry.getInstance().registerLanguageLib(FomegaLibFactory.getInstance());
+	  LanguageLibRegistry.getInstance().registerLanguageLib(FomegaMstLibFactory.getInstance());
 	}
 
 	/*
